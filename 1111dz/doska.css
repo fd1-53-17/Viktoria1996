@@ -1,0 +1,84 @@
+td {height: 50px;
+    width: 50px;
+    border:1px solid black;
+}
+.a8,.c8,.e8,.g8,.b7,.d7,.f7,.h7,
+.a6,.c6,.e6,.g6,.b5,.d5,.f5,.h5,
+.a2,.c2,.e2,.g2,.b1,.d1,.f1,.h1 {background-color: rgba(142,121,89,0.5);}
+
+.a7,.c7,.e7,.g7,.b8,.d8,.f8,.h8,
+.a5,.c5,.e5,.g5,.b6,.d6,.f6,.h6,
+.a1,.c1,.e1,.g1,.b2,.d2,.f2,.h2 {background-color: rgba(243,207,152,0.5);}
+ 
+ .a8,.h8 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: -100px 0px;
+background-repeat: no-repeat;
+ }
+ .b8,.g8 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: -210px 0px;
+background-repeat: no-repeat;
+ }
+.c8,.f8 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: -153px 3px;
+background-repeat: no-repeat;
+ }
+ .d8 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: -46px 3px;
+background-repeat: no-repeat;
+ }
+.e8 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: 5px 3px;
+background-repeat: no-repeat;
+ }
+ .a7,.b7,.c7,.d7,.e7,.f7,.g7,.h7 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: -260px 3px;
+background-repeat: no-repeat;
+ }
+ .a2,.b2,.c2,.d2,.e2,.f2,.g2,.h2 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: -260px -50px;
+background-repeat: no-repeat;
+ }
+ .a1,.h1 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: -100px -50px;
+background-repeat: no-repeat;
+ } 
+ .b1,.g1 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: -210px -50px;
+background-repeat: no-repeat;
+ }
+.c1,.f1 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: -153px -50px;
+background-repeat: no-repeat;
+ }
+ .d1 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: -46px -50px;
+background-repeat: no-repeat;
+ }
+.e1 {background-image: url(chess.png);
+width: 50px;
+height:50px;
+background-position: 5px -50px;
+background-repeat: no-repeat;
+ }
