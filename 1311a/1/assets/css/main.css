@@ -1,0 +1,25 @@
+.row>div {
+    width: 10px;
+}
+
+.row {
+    width: 30px;
+    clear: both;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.a {
+    margin-right: 10px;
+}
+
+.b,
+.c {
+    margin-right: -20px;
+}
