@@ -1,0 +1,216 @@
+#page {
+    position: relative;
+    width: 90vmin;
+    top: 3vmin;
+    left: 0;
+    margin: auto;
+
+}
+
+.top, .bottom {
+    position: relative;
+    background-color:#D9B98F;
+    padding-top: 5vmin;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 3vmin;
+    color: black;
+    outline: 1px solid black;
+
+}
+
+.first, .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth {
+    position: relative;
+    padding-top: 10vmin;
+    top: 0;
+    left: 0;
+    text-align: center;
+    outline: 1px solid black;
+}
+
+.top .one, .bottom .one, .top .ten, .bottom .ten {
+    position: absolute;
+    height: 5vmin;
+    width: 5vmin;
+   
+}
+
+.one, .ten {
+    position: absolute;
+    height: 10vmin;
+    width: 5vmin;
+    line-height: 10vmin;
+    background-color: #D9B98F;
+    outline: 1px solid black;
+    
+}
+
+.two, .three, .four, .five, .six, .seven, .eight, .nine {
+    position: absolute;
+    width: 10vmin;
+    height: 10vmin;
+    line-height: 10vmin;
+    outline: 1px solid black;
+}
+
+.one {
+    top: 0;
+    left: 0;
+    font-size: 3vmin;
+    color: black;
+}
+
+.two {
+    top: 0;
+    left: 5vmin;
+}
+
+.three {
+    top: 0;
+    left: 15vmin;
+}
+
+.four {
+    top: 0;
+    left: 25vmin;
+}
+
+.five {
+    top: 0;
+    left: 35vmin;
+    /*width: 67px;*/
+}
+
+.six {
+    top: 0;
+    left:45vmin;
+}
+
+.seven {
+    top: 0;
+    left: 55vmin;
+}
+
+.eight {
+    top: 0;
+    left: 65vmin;
+}
+
+.nine {
+    top: 0;
+    left: 75vmin;
+}
+
+.ten {
+    top: 0;
+    left: 85vmin;
+}
+
+.top .two, .top .three, .top .four, .top .five, .top .six, .top .seven, .top .eight, .top .nine {
+    position: absolute;
+    width: 10vmin;
+    height: 5vmin;
+    line-height: 5vmin;
+}
+
+.bottom .two, .bottom .three, .bottom .four, .bottom .five, .bottom .six, .bottom .seven, .bottom .eight, .bottom .nine {
+    position: absolute;
+    width: 10vmin;
+    height: 5vmin;
+    line-height: 5vmin;
+}
+
+.white {
+    background-color: #D9B98F;
+   outline: 1px solid black;
+}
+
+.black {
+    background-color: #6A5A46;
+    
+}
+
+.peshka {
+    background-image: url("../img/chess.png");
+    background-position: -52vmin 0;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
+
+.ladya {
+    background-image: url("../img/chess.png");
+    background-position: -20vmin 0;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
+
+.horse {
+    background-image: url("../img/chess.png");
+    background-position: -42vmin 0;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
+
+.elephant{
+    background-image: url("../img/chess.png");
+    background-position: -31vmin 0.5vmin;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
+
+.ferz{
+    background-image: url("../img/chess.png");
+    background-position: -9.5vmin 0.5vmin;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
+
+.king{
+    background-image: url("../img/chess.png");
+    background-position: 1vmin 0.5vmin;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
+
+.peshkawh{
+    background-image: url("../img/chess.png");
+    background-position: -52vmin -10vmin;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
+
+.ladyawh {
+    background-image: url("../img/chess.png");
+    background-position: -20vmin -10vmin;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
+
+.horsewh {
+    background-image: url("../img/chess.png");
+    background-position: -42vmin -10vmin;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
+
+.elephantwh{
+    background-image: url("../img/chess.png");
+    background-position: -31vmin -9.5vmin;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
+
+.ferzwh{
+    background-image: url("../img/chess.png");
+    background-position: -9.5vmin -9.5vmin;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
+
+.kingwh{
+    background-image: url("../img/chess.png");
+    background-position: 1vmin -9.5vmin;
+    background-repeat: no-repeat;
+    background-size: 60vmin;
+}
