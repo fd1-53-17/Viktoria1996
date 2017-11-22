@@ -1,0 +1,20 @@
+div {
+     background: #466368;
+  background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+  border-radius: 6px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.div2 {
+     background: #466368;
+  background: linear-gradient(to right, red 0%,red 14.29%,orange 14.29%,orange 28.58% ,
+  yellow 28.58%,yellow 42.87%, green 42.87%,green 57.16%,cyan 57.16%,cyan 71.45%,
+  blue 71.45%,blue 85.74%, violet 85.74%,violet 100%);
+  border-radius: 6px;
+  height: 200px;
+}
+.div3{
+  height: 10vh;
+  background:  repeating-linear-gradient(to top, red 0, red 1vw, transparent 1vw, transparent 10vw),
+               repeating-linear-gradient(to right, red 0, red 1vw, transparent 1vw, transparent 10vw);
+} 
