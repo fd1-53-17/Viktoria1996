@@ -1,0 +1,37 @@
+.one {
+    position: relative;
+}
+
+.troyka {
+    background: url(../img/cards2.png);
+    overflow: hidden;
+    width: 140px;
+    height: 190px;
+    position: absolute;
+    z-index: 30;
+    top: 100px;
+    left: 100px;
+    background-position: -289px -195px;
+}
+
+.semerka {
+    background: url(../img/cards2.png);
+    overflow: hidden;
+    width: 140px;
+    height: 190px;
+    position: absolute;
+    z-index: 20;
+    top: 50px;
+    left: 50px;
+    background-position: -148px -971px;
+}
+
+.tyz {
+    background: url(../img/cards2.png);
+    overflow: hidden;
+    width: 139px;
+    height: 190px;
+    position: absolute;
+    z-index: 1;
+    background-position: -433px -2329px;
+}
