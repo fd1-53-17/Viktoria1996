@@ -1,0 +1,53 @@
+body {
+    margin: 30px;
+}
+
+table {
+    width: 50vw;
+    height: 50vh;
+    border-collapse: collapse;
+}
+
+.topl,
+.topr,
+.bottoml,
+.bottomr {
+    width: 95px;
+    height: 95px;
+    background: url("ramka/ramka1.png") no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+.topl {
+    transform: rotate(90deg);
+}
+
+.topr {
+
+    transform: rotate(180deg);
+}
+
+.htop {
+    background: url("ramka/ramka2.png") repeat-x;
+}
+
+.vleft {
+    background: url("ramka/ramka3.png") repeat-y;
+}
+
+.vright {
+    background: url("ramka/ramka3.png") 100% repeat-y;
+}
+
+.hbottom {
+    background: url("ramka/ramka2.png") 0 100% repeat-x;
+}
+
+.bottomr {
+    transform: rotate(270deg);
+}
+
+#contain {
+    font-size: 90px;
+}
