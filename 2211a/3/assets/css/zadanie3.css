@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, monospace, sans-serif;
+    width: 37%
+}
+
+.two>p {
+    margin: 1px;
+}
+
+.three>p {
+    margin: 1px;
+}
+
+.p1  { font: normal  100% serif;
+color: grey;}
+div {
+    width: 600px;
+    background-color: #f5f5f5;
+    font-family: monospace;
+    font-size: 2.3vmin;
+    white-space: nowrap;
+}
+
+.red {
+    color: red;
+}
+
+.teal {
+    color: #008080;
+}
+
+.blue {
+    color: #1e90ff;
+}
+
+.grey {
+    color: #a9a9a9;
+}
+
+mark {
+    background-color: #f5f5f5;
+    font-family: Monospace;
+}
+
+.three {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+p {  width: 620px;}

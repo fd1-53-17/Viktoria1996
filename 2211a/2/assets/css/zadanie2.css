@@ -1,0 +1,14 @@
+.st {border: 1px solid grey;
+    border-radius: 6px;
+    margin:25px 5px;
+    padding: 5px 9px;
+     background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%);
+}
+#bold {font-weight: bold;
+    margin:10px 0px 10px 0px;
+    padding: 5px 0px 15px 0px;
+}
+.sk{overflow-x: scroll;
+    height: 30px;
+    white-space: nowrap;
+}

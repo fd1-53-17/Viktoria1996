@@ -1,0 +1,47 @@
+.wrapper {
+    width: 600px;
+
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: -1px;
+
+}
+
+.red {
+    color: red;
+    font-size: 32px;
+    margin-top: -10px;
+}
+
+.red:before {
+    font-family: "untitled-font-1";
+    content: "b ";
+
+}
+
+.big-red {
+    color: red;
+    font-size: 55px;
+    margin-top: -2px;
+}
+
+.skidki {
+    width: 180px;
+    height: 95px;
+    border: 3px dashed red;
+    border-radius: 10%;
+    border-color: red;
+    position: absolute;
+    left:460px;
+    top: 5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size:30px;
+    vertical-align: middle;
+}
+.skidki:hover { border: 4px dashed black;}
