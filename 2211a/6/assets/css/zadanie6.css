@@ -1,0 +1,45 @@
+.fon {
+    height:290px;
+    width: 440px;
+    background:#BDBDBD;
+    position: absolute;
+}
+
+.triangle1 {
+    border-top: 7vmin solid rgba(0, 0, 0, 0);
+    border-bottom: 7vmin solid #286312;
+    border-right: 7vmin solid rgba(0, 0, 0, 0);
+    border-left: 7vmin solid rgba(0, 0, 0, 0);
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 10vmin;
+    margin-top: 20vmin;
+
+}
+
+.triangle2 {
+    border-top: 25vmin solid #286312;
+    border-bottom: 10vmin solid rgba(0,0,0, 0);
+    border-right: 10vmin solid rgba(0,0,0, 0);
+    border-left: 10vmin solid rgba(0,0,0, 0);
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 20vmin;
+    margin: auto;
+    margin-top: 5vmin;
+}
+
+.triangle3 {
+    border-top: 7vmin solid rgba(0,0,0, 0);
+    border-bottom: 7vmin solid #286312;
+    border-right: 7vmin solid rgba(0,0,0, 0);
+    border-left: 7vmin solid rgba(0,0,0, 0);
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 35vmin;
+    margin-top: 20vmin;
+
+}
