@@ -1,0 +1,81 @@
+#menu {
+	display: none;
+}
+
+#menu~ul {
+	display: none;
+}
+
+#menu:not(:checked)~label[for=menu]:nth-of-type(2) {
+  display: none;
+}
+
+#menu:checked+label[for=menu] {
+  display: none;
+}
+
+#menu:checked~ul {
+	display: block;
+}
+
+label[for="menu"] {
+	color: blue;
+	text-decoration: underline;
+}
+
+ul {
+	width: 45px;
+	border: 1px solid grey;
+	list-style-type: none;
+}
+
+[type="radio"] {
+	display: none;
+}
+
+label[for|="punkt"] {
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+	margin-left: -40px;	
+}
+
+label[for|="punkt"]:hover {
+	background: lime;	
+}
+
+label[for|="punkt"]:hover::after {	
+	content:'>';
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+[type="radio"]:not(:checked)+div {
+	display: none;	 
+}
+
+[type="radio"]:checked+div {
+	display: block;
+}
+
+li {
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	background-color: aqua;
+}
+
+div {
+	position: absolute;
+	top: 0;
+	right: -83px;
+	border: 1px solid blue;	
+	width: 80px;
+	height: 90px;
+}
