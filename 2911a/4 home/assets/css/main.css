@@ -7,11 +7,11 @@
 }
 
 #menu:not(:checked)~label[for=menu]:nth-of-type(2) {
-  display: none;
+	display: none;
 }
 
 #menu:checked+label[for=menu] {
-  display: none;
+	display: none;
 }
 
 #menu:checked~ul {
@@ -37,21 +37,21 @@ label[for|="punkt"] {
 	text-decoration: underline;
 	color: blue;
 	cursor: pointer;
-	margin-left: -40px;	
+	margin-left: -40px;
 }
 
 label[for|="punkt"]:hover {
-	background: lime;	
+	background: lime;
 }
 
-label[for|="punkt"]:hover::after {	
-	content:'>';
+label[for|="punkt"]:hover::after {
+	content: '>';
 	margin-left: 20px;
 	text-decoration: none;
 }
 
 [type="radio"]:not(:checked)+div {
-	display: none;	 
+	display: none;
 }
 
 [type="radio"]:checked+div {
@@ -75,7 +75,7 @@ div {
 	position: absolute;
 	top: 0;
 	right: -83px;
-	border: 1px solid blue;	
+	border: 1px solid blue;
 	width: 80px;
 	height: 90px;
 }
