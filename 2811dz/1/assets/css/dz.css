@@ -1,53 +1,96 @@
 .wrapper {
-    font-size: 17px;
+	max-width: 1366px;
+	margin: 0 auto;
+	font: 16px verdana, arial, sans-serif;
 }
-.header, .footer {
-    position: relative;
-    text-align: center;
-    background-color: #b5f6f6;
-    color: blue;
-    margin-top: 5px;
+
+header {
+	height: 44px;
+	background-color: #add8e6;
+	text-align: center;
+	font-size: 24px;
+	color: #0000ff;
+	letter-spacing: 2px;
+	line-height: 44px;
 }
-.menu {
-    width: 221px;
-    float: left;
-    background-color: #f0d094;
+
+aside {
+	width: 200px;
+	background-color: #f0e68c;
+	float: left;
+	display: inline-block;
 }
-.content {
-    background: url(../img/football1.png) 100% 0 repeat-y;
-    background-size: 60px;
+
+.vidy {
+	margin-left: 11px;
+	font-weight: bold;
 }
+
+li {
+	margin-left: -8px;
+}
+
+content {
+	float: right;
+	width: calc(100% - 220px);
+	margin: 0 0 0 20px;
+	background: url(../img/football1.png) top right repeat-y;
+}
+
 img {
-    float: left;
-    margin-left: 5px;
-    margin-top: 39px;
-    padding-right: 5px;
+	float: left;
+	margin: 0 20px 15px 0;
 }
-p, h3 {
-    margin: 0;
-    padding-top: 12px;
+
+h1 {
+	text-align: center;
+	margin: 20px 0px 30px 0px;
+	font-size: 24px;
 }
+
+footer {
+	height: 54px;
+	background-color: #add8e6;
+	text-align: center;
+	font-size: 24px;
+	color: #0000ff;
+	letter-spacing: 2px;
+	clear: both;
+	line-height: 54px;
+}
+
+@media screen and (max-width: 600px) {
+	content {
+	background: none;
+}
+	header {
+	height: 74px;
+	line-height: 30px;
+	padding: 14px 8px 0 8px;
+}
+	img {
+	width: 100%;
+}
+	footer {
+	line-height: 30px;
+	padding: 14px 40px;
+}
+}
+
 @media screen and (max-width: 320px) {
-    .wrapper, .header, .footer, .main, .menu, .content {
-        width: 305px;
-    }
-    .main {
-        position: relative;
-        height: 710px;
-    }
-    .menu {
-        position: absolute;
-        bottom: 0;
-    }
-    .content {
-        position: absolute;
-        top: 0;
-    }
-    img {
-        margin-left: 50px;
-        margin-top: 5px;
-    }
-    h3 {
-        text-align: center;
-    }
+	aside {
+	width: 100%;
+}
+	content {
+	width: 100%;
+}
+	header {
+	height: 74px;
+	line-height: 30px;
+	padding: 14px 8px 28px 8px;
+}
+	footer {
+	line-height: 30px;
+	padding: 14px 8px 44px 8px;
+}
 }
