@@ -1,0 +1,66 @@
+.wrapper {
+	width: 700px;
+	height: 300px;
+	position: relative;
+	margin: 10px auto;
+}
+
+.boll {
+	background-color: #FF5151;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	animation: jump 1s cubic-bezier(.72,.98,.82,.98) infinite, go 4s ease-in-out alternate infinite;	
+}
+
+@keyframes jump {
+	0% {		
+		bottom: 230px;	
+	}
+	
+	48% {
+		bottom: 0px;
+		width: 70px;
+		height: 70px;
+	}
+
+	50% {
+		bottom: 0px;
+		width: 90px;
+		height: 50px;
+	}
+
+	52% {
+		bottom: 0px;
+		width: 70px;
+		height: 70px;
+	}
+
+	100% {
+		bottom: 230px;
+	}
+}
+
+@keyframes go {
+	0% {
+		left: 0;
+	}
+	
+	20% {
+		left: 120px;
+	}
+	40% {
+		left: 240px;
+	}	
+	60% {
+		left: 360px;
+	}
+	80% {
+		left: 480px;
+	}
+
+	100% {
+		left: 600px;
+	}
+}

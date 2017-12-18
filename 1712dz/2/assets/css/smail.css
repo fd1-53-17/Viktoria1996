@@ -1,0 +1,4 @@
+.face:hover {fill:orange;}
+.eyes:hover {fill:red;}
+.smile:hover {fill:rgba(0,0,0,0);}
+.dream:hover+.present,.present:hover {fill:green;}
