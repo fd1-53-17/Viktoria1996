@@ -1,0 +1,307 @@
+div.wrapper {
+    width: 65%;
+    height: 100%;
+    max-width: 1080px;
+    min-width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fbefcc;
+    border: 0.2em dashed black;
+    border-radius: 5%;
+    position: relative;
+}
+
+body {
+    font-family: "Times New Roman";
+    font-size: 1.125em;
+    width: 100%;
+    height: 40em;
+    position: relative;
+}
+
+label {
+    border: 0.1em solid black;
+    border-radius: 15%;
+    width: 4em;
+    text-align: center;
+    float: left;
+    padding: 0.1em;
+    margin-left: 3.6em;
+    margin-top: 1em;
+    display: inline;
+}
+
+label#break.link {
+    position: absolute;
+    background-color: #f9ccac;
+}
+
+label#lanch.link {
+    position: absolute;
+    left: 7em;
+    background-color: #f4a688;
+}
+
+
+label#diner.link {
+    position: absolute;
+    left: 14em;
+    background-color: #e0876a;
+}
+
+#hider1 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+
+}
+
+#hider1:checked+.content1 {
+    display: block;
+    -webkit-transition: 5s;
+    -o-transition: 5s;
+    transition: 5s;
+
+}
+
+#hider2 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#hider2:checked+.content2 {
+    display: block;
+}
+
+#hider3 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#hider3:checked+.content3 {
+    display: block;
+}
+
+p {
+    width: 8em;
+}
+
+#break:hover,
+#lanch:hover,
+#diner:hover {
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+div.content1 {
+    margin: 3em;
+    display: none;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-color: #f9ccac;
+    border: 0.01em solid black;
+}
+
+div.content2 {
+    margin: 3em;
+    display: none;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-color: #f4a688;
+    border: 0.01em solid black;
+}
+
+div.content3 {
+    margin: 3em;
+    display: none;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-color: #e0876a;
+    border: 0.01em solid black;
+}
+
+div.bludo {
+    float: left;
+    margin: 1em 2em;
+
+}
+
+div.a1 {
+    background-image: url("https://www.gastronom.ru/binfiles/images/20170218/md8488bb.jpg");
+    background-size: cover;
+    width: 8em;
+    height: 7em;
+    display: block;
+    border: 0.1em solid red;
+}
+
+div.a2 {
+    background-image: url("http://www.menslife.com/upload/iblock/058/pravilnyj_zavtrak_eto_vazhno.jpg");
+    background-size: cover;
+    width: 8em;
+    height: 7em;
+    display: block;
+    border: 0.1em solid red;
+}
+
+div.a3 {
+    background-image: url("http://travelers-coffee.com/uploads/menus/originals/LiAVJybdksqMkNiZRWpk.jpg");
+    background-size: cover;
+    width: 8em;
+    height: 7em;
+    display: block;
+    border: 0.1em solid red;
+}
+
+p.zena {
+    opacity: 0;
+    margin-top: 6em;
+    font-size: 1em;
+    line-height: 1em;
+    text-align: center;
+    color: #fff;
+
+}
+
+div.a1:hover p.zena {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+div.a2:hover p.zena {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+div.a3:hover p.zena {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+div.b1 {
+    background-image: url("http://www.nutriciologia.ru/wp-content/uploads/2016/01/4467666_sup.jpg");
+    background-size: cover;
+    width: 8em;
+    height: 7em;
+    display: block;
+    border: 0.1em solid red;
+
+}
+
+div.b2 {
+    background-image: url("http://ladyspecial.ru/images/2017/05/10/02c5f9dd3f97eed3a543ac194fe882e8.jpg");
+    background-size: cover;
+    width: 8em;
+    height: 7em;
+    display: block;
+    border: 0.1em solid red;
+}
+
+div.b3 {
+    background-image: url(" https://s2.eda.ru/StaticContent/Photos/120131090259/120213190009/p_O.jpg");
+    background-size: cover;
+    width: 8em;
+    height: 7em;
+    display: block;
+    border: 0.1em solid red;
+}
+
+div.b1:hover p.zena {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+}
+
+div.b2:hover p.zena {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+div.b3:hover p.zena {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+div.c1 {
+    background-image: url("https://kedem.ru/photo/articles/2016/06/plov-v-mulytivarke-04.jpg");
+    background-size: cover;
+    width: 8em;
+    height: 7em;
+    display: block;
+    border: 0.1em solid red;
+}
+
+div.c2 {
+    background-image: url("http://bg.ru/media/upload/images/GettyImages_522854441.jpg");
+    background-size: cover;
+    width: 8em;
+    height: 7em;
+    display: block;
+    border: 0.1em solid red;
+}
+
+div.c3 {
+    background-image: url(" https://cont.ws/uploads/pic/2017/3/steik_iz_svininy-2.jpg");
+    background-size: cover;
+    width: 8em;
+    height: 7em;
+    display: block;
+    border: 0.1em solid red;
+}
+
+div.c1:hover p.zena {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+div.c2:hover p.zena {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+div.c3:hover p.zena {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+@media screen and (max-device-width: 800px) {
+    body {
+        font-family: "Times New Roman";
+        font-size: 35px;
+    }
+    div.wrapper {
+        width: 100%;
+        height: 1852px;
+    }
+    div.bludo {
+        float: none;
+        margin-left: 3em;
+    }
+    div.a1,
+    div.a2,
+    div.a3,
+    div.b1,
+    div.b2,
+    div.b3,
+    div.c1,
+    div.c2,
+    div.c3 {
+        width: 550px;
+        height: 400px;
+    }
+}
