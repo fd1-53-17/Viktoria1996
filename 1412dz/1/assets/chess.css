@@ -1,0 +1,26 @@
+.chessTable {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+div {
+    -ms-flex-preferred-size: 10%;
+    flex-basis: 10%;
+    -webkit-box-shadow: inset 0 0 0 1px;
+    box-shadow: inset 0 0 0 1px;
+}
+div:nth-child(n+12):nth-child(-n+19):nth-child(odd),
+div:nth-child(n+22):nth-child(-n+29):nth-child(even),
+div:nth-child(n+32):nth-child(-n+39):nth-child(odd),
+div:nth-child(n+42):nth-child(-n+49):nth-child(even),
+div:nth-child(n+52):nth-child(-n+59):nth-child(odd),
+div:nth-child(n+62):nth-child(-n+69):nth-child(even),
+div:nth-child(n+72):nth-child(-n+79):nth-child(odd),
+div:nth-child(n+82):nth-child(-n+89):nth-child(even){
+    background-color: #CB8A40;
+}
