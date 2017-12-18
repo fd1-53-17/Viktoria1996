@@ -1,0 +1,96 @@
+.wrapper {
+	max-width: 1366px;
+	margin: 0 auto;
+	font: 16px verdana, arial, sans-serif;
+}
+
+header {
+	height: 44px;
+	background-color: #add8e6;
+	text-align: center;
+	font-size: 24px;
+	color: #0000ff;
+	letter-spacing: 2px;
+	line-height: 44px;
+}
+
+aside {
+	width: 200px;
+	background-color: #f0e68c;
+	float: left;
+	display: inline-block;
+}
+
+.vidy {
+	margin-left: 11px;
+	font-weight: bold;
+}
+
+li {
+	margin-left: -8px;
+}
+
+content {
+	float: right;
+	width: calc(100% - 220px);
+	margin: 0 0 0 20px;
+	background: url(../img/football1.png) top right repeat-y;
+}
+
+img {
+	float: left;
+	margin: 0 20px 15px 0;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0px 30px 0px;
+	font-size: 24px;
+}
+
+footer {
+	height: 54px;
+	background-color: #add8e6;
+	text-align: center;
+	font-size: 24px;
+	color: #0000ff;
+	letter-spacing: 2px;
+	clear: both;
+	line-height: 54px;
+}
+
+@media screen and (max-width: 600px) {
+	content {
+	background: none;
+}
+	header {
+	height: 74px;
+	line-height: 30px;
+	padding: 14px 8px 0 8px;
+}
+	img {
+	width: 100%;
+}
+	footer {
+	line-height: 30px;
+	padding: 14px 40px;
+}
+}
+
+@media screen and (max-width: 320px) {
+	aside {
+	width: 100%;
+}
+	content {
+	width: 100%;
+}
+	header {
+	height: 74px;
+	line-height: 30px;
+	padding: 14px 8px 28px 8px;
+}
+	footer {
+	line-height: 30px;
+	padding: 14px 8px 44px 8px;
+}
+}
