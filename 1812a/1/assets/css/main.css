@@ -1,0 +1,73 @@
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px 10px;
+    font-size: 22px;
+
+}
+
+ul {
+    display: flex;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 12px;
+}
+
+#square {
+    height: 100px;
+    width: 100px;
+    background-color: #FF0000;
+}
+
+#circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #000CFF;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #F0FF00;
+}
+
+#square:target {
+    content: "#square";
+
+}
+
+#square:not(:target) {
+    content: "#square";
+    display: none;
+}
+
+#circle:target {
+    content: "#circle";
+}
+
+#circle:not(:target) {
+    content: "#circle";
+    display: none;
+}
+
+#triangle:target {
+    content: "#triangle";
+}
+
+#triangle:not(:target) {
+    content: "#triangle";
+    display: none;
+}
+ #square:not(:target) ~ #triangle {
+	display: block;
+}
+
+#circle:target ~ #triangle {
+	display: none;
+}
