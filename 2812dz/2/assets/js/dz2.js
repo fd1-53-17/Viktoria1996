@@ -1,5 +1,5 @@
 var str = prompt('Enter your text');
-    str = str.toLowerCase().split(" ").join("").split(",").join("").split(".").join("").split("-").join("");
+    str = str.toLowerCase().split(" ").join("").split(",").join("").split(".").join("").split("-").join("").split("?").join("").split("!").join("").split("(").join("").split(")").join("").split("_").join("");
 if (str == str.split("").reverse().join("")) {
     alert("It's palindrom");
 }
